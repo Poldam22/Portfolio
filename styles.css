@@ -73,6 +73,8 @@ a:hover{
 
 #hamburguer-nav {
     display: none;
+    transition: 2s;
+
 }
 
 .hamburguer-menu{
@@ -94,6 +96,8 @@ a:hover{
     height: 2px;
     background-color: black;
     transition: all 0.3 ease-in-out;
+    transition: 2s;
+
 }
 
 .menu-links{
@@ -124,26 +128,39 @@ a:hover{
 
 .menu-links.open{
     max-height: 300px;
+    transition: 2s;
+
 }
 
 .hamburguer-icon.open span:first-child{
     transform: rotate(45deg) translate(10px, 5px);
+    transition: 2s;
 }
 .hamburguer-icon.open span:nth-child(2){
     opacity: 0;
+    transition: 2s;
+
 }
 .hamburguer-icon.open span:last-child{
     transform: rotate(-45deg) translate(10px, -5px);
+    transition: 2s;
+
 }
 
 .hamburguer-icon span:first-child{
     transform: none;
+    transition: 2s;
+
 }
 .hamburguer-icon span:first-child{
     opacity: 1;
+    transition: 2s;
+
 }
 .hamburguer-icon span:first-child{
     transform: none;
+    transition: 2s;
+
 }
 
 /* .menu-icon {
