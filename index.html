@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueris.css">
+
+</head>
+<body>
+    <header>
+        <nav id="desktop-nav">
+            <div class="logo">John Doe</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#expirience">Experiencia</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <nav id="hamburguer-nav">
+            <div class="logo">John Doe</div>
+            <div class="hamburguer-menu">
+                <div class="hamburguer-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                        <li><a href="#about" onclick="toggleMenu()">Sobre mí</a></li>
+                        <li><a href="#expirience" onclick="toggleMenu()">Experiencia</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy [Tu Nombre], un desarrollador web con experiencia en [tecnologías]. Me encanta crear soluciones innovadoras y eficientes.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1.</p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2.</p>
+        </div>
+        <!-- Añade más proyectos según sea necesario -->
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
