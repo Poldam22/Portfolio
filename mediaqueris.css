@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
     #contact,
     footer{
         height: 40vh;
@@ -95,5 +95,13 @@
     }
     #about{
         margin-top: 10rem;
+    }
+   
+ }
+
+ @media screen and (max-width:450px) {
+    #contact{
+        margin-bottom: 5rem;
+        margin-top: 5rem;
     }
  }

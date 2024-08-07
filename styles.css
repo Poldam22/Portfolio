@@ -187,6 +187,12 @@ section{
     display: flex;
     height: 400px;
     margin: auto 0;
+   justify-content: center;
+}
+
+.section__pic-container .lala{
+    border-radius: 100rem;
+    height: 40vh;
 }
 
 .section__text{
